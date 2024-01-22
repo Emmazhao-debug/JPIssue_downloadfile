@@ -1,0 +1,160 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      }
+    },
+    "Count": 35
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 57
+  },
+  "Values": {
+    "12,22": "Configure MFA",
+    "14,21": "Add an account on an authenticator app on your mobile phone and scan the QR code below.",
+    "27,21": "Next"
+  },
+  "AttachInfos": {
+    "5,21": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_light.png"
+      }
+    },
+    "17,24": {
+      "CellType": {
+        "$type": "Forguncy.BarcodeCellType, ServerDesignerCommon",
+        "CodeType": "QRCode",
+        "ForguncyAttribute": "MFA_Secret_Barcode"
+      }
+    },
+    "27,21": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "Next",
+        "TemplateKey": "_RS_RoundCorner_Style2",
+        "ForguncyAttribute": "MFA_Secret_Next_Button"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 6,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 15",
+        "Center",
+        "Text 1 35",
+        "Left",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "12,22": 0,
+      "14,21": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "5,21,4,15",
+    "27,21,2,15",
+    "17,24,9,9",
+    "12,22,2,13",
+    "14,21,2,15"
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "ForguncyPictureName": "PCLoginBackground",
+      "Stretch": 3,
+      "ForguncyPictureSourceType": 2,
+      "Name": "BackgroundPicture0",
+      "Size": "1120,685"
+    },
+    {
+      "StyleInfo": {
+        "CornerRadius": 8.4375,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Name": "BackgroundPicture1",
+      "Location": "380,220",
+      "Size": "360,385"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "Scan MFA QR Code (Mobile)",
+    "Title": "Configure MFA",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//33OjrTA4um2M1d9tL9UM39Dc7mzgjH9LyP29aTo5L6FBb6IEeSAKizCEM8roHHSG69n4aUpik3KlLam+8g2fGDLemG+ljxwzoT+G+2nggE6H+Atw+K2IcH7oGw3l3O4Lan9X4Vj4oBBX66uw+Dtnxdc1jDS7iRWRqKGPwbpmzn04w140xH75yXlutKLmeDj0A/h28ttvvWTOCYC6qRqOPl44oaC29fB/Una/p5O7bz1XfZTHUVIRXd/1bEYJ3jLBu9eCaPLPvDJBmybXsFssuK3LP/c4Ycikakx1e8oNbJgEobVjiki2UqIPAvnRa5NGpF0U6vTnahx0a5+xASnQIBL7lCOLaN8xXdy8O35pcxIwKz3sBDfWHSdGIVT8lHStjvZeymt+uYa7ZqfRfpOmWCVWtiTBBUVmtB5PjrC4UFU0xm27x3tY0nUypA8rR9YTMb+tEbP6qHuG/ufXjvTTBBHftJYX4SNbE6mK3xTuoWMVF106ZHQeDwol/ONGjQHC/dIv0xDuKKHl0lldKn+jQDYSuGjclEqf+Q80e0B2Bl5e8wNQh/9qFSo7zHdhQ9GIqrBZrN1ddULRCK+++2puRzuV1W/l4QxqY+JQtQy0ZHjm2IxTqFadu04x30CF+9HAnc17YHtCMOUt8+i/tAmWJj2sp8DmbNj2w5VITQ7u1Hz38ggGdIHyN3Tse30hY57h9SEsFfR9+OTLZGqEmOZcn6WJ6aXndiLU/iq8SwopinpjSXyFGO1BExMiTZHKQCD49wI7LRLgpz0vRd3TZ3MT93RsYmu65m/DTw/qXe5Z0YYOuJ2xkne+D8Xy39cqbfue3Dcb7MkCQn2MMQAcDtOUFOcbOWkPqx6vR3WIAZe5JpiJQIwfyKShG0WZ1H5pPD3jJAOZ27mvzTQl2HtiWLaJxQ==|920

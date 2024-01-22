@@ -1,0 +1,105 @@
+{
+  "Rows": {
+    "Count": 29
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "0,0": "  ",
+    "7,3": "Configure MFA",
+    "9,3": "Add an account on an authenticator app on your mobile phone and scan the QR code below.",
+    "22,3": "Next"
+  },
+  "AttachInfos": {
+    "3,4": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_light.png"
+      }
+    },
+    "13,5": {
+      "CellType": {
+        "$type": "Forguncy.BarcodeCellType, ServerDesignerCommon",
+        "CodeType": "QRCode",
+        "ForguncyAttribute": "MFA_Secret_Barcode"
+      }
+    },
+    "22,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "Next",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Outline_RoundCorner_Style2",
+        "ForguncyAttribute": "MFA_Secret_Next_Button"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 2,
+        "VerticalAlignment": 4,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Background 1 0",
+        "Center",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "7,3": 0,
+      "9,3": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "3,4,3,10",
+    "22,3,2,12",
+    "13,5,8,8",
+    "7,3,2,12",
+    "9,3,3,12"
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "ForguncyPictureName": "MobileLoginBackground",
+      "Stretch": 3,
+      "ForguncyPictureSourceType": 2,
+      "Name": "BackgroundPicture0",
+      "Size": "360,580"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "Configure MFA",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//X0/HG0nRiSkpe/HlcSzjABYnivlOk7tS7Gc/IVbrAX8uXnvITg7Th3DpC09RyfcoU1JEatWbDCgtrcDdvSxUljNcUmA1EpCG+PBN9ou0IFV0qS40mAHlThWrUpfxNWX0OCiNYkaNDzz13moi8aT/TTQ5oZETduULMzxNdIssmKmCNHCAETqXlCstFrvFtd9DWztUjPeYbQwnW9UPicZV+fqQqebXosBPJTbx3yms5GNEEH8tblHR6qMLtqujnYsSluczVHWHI3YQgmmdhS9GeO0gLlELH9mi31aP8JZPH4HTK99CpGJwwbs2304qr1gzDujSm7RJeFF8tHX4xVgdk2b7Tr6EYklx8vywNXAWvjO0F5w8LgxQuIkoTkdkDU7crTlKp0la70mGNVtuEGb0un6ZuFHYHyCz546e8+kTTuPm1U/elYvqECugVsBJQMdrNVQdbXSIhhq7NOBZpsAUE0EsTyvmcP3C3Amuyzu/hV3CE8titUsgCGDzvJjBXHlwM6mUsvKJljFkpekoZn2zfepvdxooJz3VRIYu76/ztx5M+WGNL7TYgOSjZ5edz8GcKS5qYHPKAjZOID5gg9U3l6wsH8L+93DDiD9FRkQwhWuP0aHllPCEyYPboQjeLHJWfxnMIANDuh+oGvsDf/l1vbvMu+JdbJ48iGVvU3EZq3klep+I+lqYhJVJ10J79xliYDTD/vfULdfN9mArgtveUUwJVBWV+6CE5fzB8tTTfnyXXQV9pCwfMRSM613CD0Om8yJ1GYhWIS9g+lRdZq4/X0TDJN0fbglgXSkGvYxw8p5TEypydlGCMWsoLd/vKaRAmQZ4cuZX0Yv4ZYwwEM8Ckc8okhrlHnWlIKXeo+E5iuq5yBWSDWTUfDX/L7fo2/o9hgjpsp3eSS1AP0BWMylCjw==|920

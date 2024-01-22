@@ -1,0 +1,140 @@
+{
+  "Rows": {
+    "Count": 25
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "2,2": "Mail subscription settings",
+    "5,1": "Please select the type of email notification",
+    "21,2": "Save",
+    "21,10": "Cancel"
+  },
+  "AttachInfos": {
+    "7,1": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "NoneItemText": "<空>",
+        "Style": 1,
+        "LayoutMode": 1,
+        "ItemSpace": 14,
+        "Items": [
+          {
+            "Value": "0",
+            "DisplayValue": "Not notified"
+          },
+          {
+            "Value": "1",
+            "DisplayValue": "All changes are notified"
+          },
+          {
+            "Value": "2",
+            "DisplayValue": "Send notifications when other users create or modify records"
+          },
+          {
+            "Value": "3",
+            "DisplayValue": "Send notification when the record I created is modified"
+          },
+          {
+            "Value": "4",
+            "DisplayValue": "Send a notification when the record assigned to me is modified"
+          }
+        ],
+        "ForguncyAttribute": "MailSubscription_Choice"
+      }
+    },
+    "21,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "Save",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
+        "ForguncyAttribute": "MailSubscription_Button"
+      }
+    },
+    "21,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "Cancel",
+        "TemplateKey": "_RS_Outline_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 21.333333969116211,
+        "Foreground": 0,
+        "Formatter": 1,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3
+      },
+      {
+        "FontSize": 14.666666984558105,
+        "Foreground": 4,
+        "Formatter": 1
+      },
+      {
+        "VerticalAlignment": 5,
+        "WordWrap": true
+      },
+      {
+        "FontSize": 16.0,
+        "FontWeight": 6,
+        "Foreground": null,
+        "Formatter": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 1 -50",
+        "[AUTO]General",
+        "Center",
+        "Bottom",
+        "#FF3F3F3F",
+        "Top",
+        "Bold",
+        "Body",
+        "#FF000000"
+      ]
+    },
+    "CellStyles": {
+      "2,2": 0,
+      "5,1": 1,
+      "7,1": 2,
+      "21,2": 3,
+      "21,10": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 7,
+      "FontSize": 13.333333015441895,
+      "Foreground": 8
+    }
+  },
+  "Spans": [
+    "2,2,2,14",
+    "7,1,11,16",
+    "21,2,2,6",
+    "21,10,2,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "Mail Subscriptions",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//nWDSyIEq5P/3iYApI3a5lKX5d9VHsV/5Bi8XROQUSTSAwr3YLC3MatNWa++f6VigEM395U3n/rMTA7Sve5bqBqMygdfO7JkM/XgBQw+8JmHYDCr4CcP9oJOO4ZyR9AWLdRluQmO+7dAUxr+7TrJ6ypjun5UqR+n50rREMWb66m+zaV/XiMTvL/9ippPPp13Rgj6xJBkTZfFRLOX9eUf1tmv5bzddVceSf0E6xNW2MPhnOMIt48czA6Bjk6p4oOqf+dsTDHSao9QaXg2YsTf7zuMBGdW1Jcb9V7gM8ELhlXpgTA5jqF//XkhGxLuVTiA0EtsEQywQLqmH61UKQ7qS9A1RAHtxrkx/uBzzcwOI6y9jjq4mLCkXXw0GZIUs++8jUBK+eNBLv2OaxamOvIXmGABXUzlvrMn6IsSpatijVy4De+WojI9qNuaNXgFhVSq+F1kf7IbjyuGn5+2EOEv3905bPsUl7kpvjq4EbQRxKGP8vOgpwKUFidQneJZv1Q17suJzs7tX8/tD/mjIFT6Maou8De21Cv70PDikMyZrcOTKB1pkUHC3vtgXa64YlUKm8Cu/OaLwl8LA5ulT6tdwQOk4/m00Uq4HejcSIp9v/OFSBWljACVr0edrY1WAIPDzRNfzUy1pzaFTEj1M/ee9C91kifvEI02Knc7NGAWIzAwxyG3cQ2yNnJif7OK8vXFc5f3ZEqpIskzDiv0UBTmIFZHaEl4eZBWV+1Pwec0YvWTDB8QP8XVLnCwvahpjm1m2QLpGJX1ckHOrQ5Y5oMNAx5u80wpjRWi8b5t9iNvCh+ceJiuJcXpF7PPl7ID9kh8PK6kv0uRQyNxHt9axVC2uPAGw+NiYDAWHBSoQHLJ5OygpozR0FyxlKRlv5DVsYNw6NXGgqrEYQMj3H+Y4IyyLfg==|920

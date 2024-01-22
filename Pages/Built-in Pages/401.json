@@ -1,0 +1,129 @@
+{
+  "Rows": {
+    "Count": 26
+  },
+  "Cols": {
+    "Count": 47
+  },
+  "Values": {
+    "5,12": "Access Denied",
+    "8,12": "You don't have permission to access this page.",
+    "10,12": "Possible Reasons:",
+    "12,12": "The signed-in user does not have the required access permission.",
+    "14,12": "How to Solve:",
+    "16,11": "1.",
+    "16,13": "Sign out and sign in again with a different account.",
+    "18,11": "2.",
+    "18,13": "Click on the browser's Back button and click on a different link.",
+    "20,11": "3.",
+    "20,13": "Contact the administrator."
+  },
+  "AttachInfos": {
+    "16,13": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "Text": "Sign out and sign in again with a different account.",
+        "ForguncyAttribute": "401Login"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 37.333332061767578,
+        "VerticalAlignment": 0
+      },
+      {
+        "VerticalAlignment": 0
+      },
+      {
+        "FontSize": 18.0,
+        "FontWeight": 1,
+        "VerticalAlignment": 0
+      },
+      {
+        "FontSize": 14.0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 0
+      },
+      {
+        "FontSize": 14.0,
+        "Foreground": 3,
+        "VerticalAlignment": 0,
+        "Underline": true
+      },
+      {
+        "FontSize": 14.0,
+        "VerticalAlignment": 0,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Top",
+        "Bold",
+        "Right",
+        "#FF0070C0",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "5,12": 0,
+      "8,12": 1,
+      "10,12": 2,
+      "12,12": 1,
+      "14,12": 2,
+      "16,11": 3,
+      "16,13": 4,
+      "18,11": 3,
+      "18,13": 5,
+      "20,11": 3,
+      "20,13": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 4,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "16,11,2,2",
+    "18,11,2,2",
+    "20,11,1,2",
+    "18,13,2,23",
+    "20,13,1,23",
+    "16,13,2,23",
+    "8,12,2,24",
+    "5,12,3,24",
+    "14,12,2,24",
+    "12,12,2,24",
+    "10,12,2,24"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Background 1 -5",
+        "Stroke": "Background 1 -25",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "2e7e546e-a7f1-4e86-b8d4-dcb02575df77.png",
+      "Location": "200,80",
+      "Size": "540,360"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "Default Master",
+    "MobilePageName": "401 (Mobile)",
+    "Title": "401",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//IrhDpgL8ZWgWVKGE+L25d5ka5lgJnDYn8d2055PK9zvJIgLWDxC8k+q9qVFsgqF36UjWMq72GzhnFh+Cs3W/C8e5k/syDvURpMZldzzmdbWD71zp3rK8G0Luqo8AzHoat8rW1xy28vcqi/SyDn44r5n83KQwV50GK4Gnyhase43zD/qQ4JDze+ScbB4elNvdq7qCvQnEFiBemxqkQz1Wy6l8eU9j2xh4MzVZL8qsjTbq/YZe+93xCu08OkTDmW+tzIJTAjO123Q0AWJ/lxsm/2LBofcVtlxO5rE6JrI5mUo8ijUNFr04NwcGfg442WFIJAw5uDK6ROetJ2zPFQoEM4stOAGPE1MxZV8hOc73UrRE7/FiFaqaCj0CWuO73PiU/1GDh2fNjbd9BheI/uPAYcOVJirUEbJjwoe/tYwjv2TXrLlCET+KHSwsiDxJDldKGoSfW0Ttc4LwcBStv3OlNLFzidU/vydX7HJXrTBz41qzzfpX4zGjVNXBUU7fQoLESj4wAVGAJTYna5nd+Bj78D9j30m2rFTGTGwLRLWrLTRWHU+qgekVmbG4co4MAMXCbChqRe8oNqkUn5O3uGqvQSb62MKyopvgxR2OYIs4PNxJBMtJ5DmMzFJwwVp/u9nrqTWqswoKNZhDtrQ0Px5qnW36lTp9vUewAejq7malvoMmjuvsFy2WuPOBHHbApaljAfQ0JQZLOOb6KxaDBGY5jGwXWHr9Uvs23gE9Yw3IRJvm31+s9+WPVYvfeeT42LvNI54o2+mE3TGuVyOq2xoxJWFkc8gciDBh4SSoB17j2H0cJTNdnCiLE6eMF393PnT5rHIqo5wTsM66zD4shx6j2OIumshR5GqHiQ3lKFYsee7HvRAo3iTsAK8K6PjdV6gdlVzDIdShnlqorK1g+w8w4w==|920

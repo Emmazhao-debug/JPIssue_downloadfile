@@ -1,0 +1,70 @@
+{
+  "Rows": {
+    "Count": 25
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "2,2": "WE'LL BE BACK SOON!",
+    "6,2": "Sorry, the site is currently under maintenance. We'll be back soon.",
+    "10,2": ""
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 21.333333969116211,
+        "Foreground": 0,
+        "Formatter": 1,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3
+      },
+      {
+        "FontSize": 16.0,
+        "FontWeight": 4,
+        "Foreground": 5,
+        "Formatter": 1,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 1 -50",
+        "[AUTO]General",
+        "Center",
+        "Bottom",
+        "Bold",
+        "#FF7F7F7F",
+        "Body",
+        "#FF000000"
+      ]
+    },
+    "CellStyles": {
+      "2,2": 0,
+      "6,2": 1,
+      "10,2": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 6,
+      "FontSize": 13.333333015441895,
+      "Foreground": 7
+    }
+  },
+  "Spans": [
+    "2,2,2,14",
+    "6,2,4,14",
+    "10,2,3,14"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "Maintenance",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//0O2mpYmNn4j8f4LDDWzqulxBdqhJHtydDhI4oU45uTSlpBuo3tA0iAkg0D3qlQVCJ9p04Qk41hJweQ5VXoItVGgkAl5LJCYUGuG2yL1OlPuKgdcIfB8qI2aMcS5T2AOePs2G4+zqDHiFpNNtHbp6bnvE4G15kNq7/Xs/kXUClQAcFC5Sf+HX5L42I5zvhwLOArVyCIG5rCDA2fKbdyMb+jYniIONCDNKNGeIgOGpJwE0/DHo4tw9tDHJKWsOSdSVTEH+MM8F3n3u20wVK0lEMzoBzBZT4BMoExzIdcomEw++luElD70qJN8X7Hyq+rRQQqTowT+P3JQCZhpbsbMum4ubxrD/gdK/PZmDabCR22e2Yiq43y5Kqf2d5EXm5m/K+axZtHlwdsZ1WtauSOiv3SlNZvf6vXks0+3SX3k7fovZAswoaFyuc2QDPN+SIVzc7IQVs1Mata4MrZOycmW0oyspvep/encBu/ZfGQmMtQHcyAkpNHt/EGvEn6vVsJ+Z0V0PDBVCxhBDWnbMwcziqj5RhbfhjkiwvzVwNXSA5377XL/zBso+DhkyJ0gigaJDUqzXSpo0e9Y01My/6sdrqOpyrZHwJa21+V8EH08Q28eZlGqSnyHveNa0dwtjvRqPHlXvAhjX03zulrunCG6i5x60AOeQTWR/WBWuyFlVyFOeK7BjYz2h8kSIlNL7g9JZ6mSvZs6VINZtq1S3DzOrOPLfhdG8NeNCMrTswnyvjcxTHOBp8QRRSc9W9vfepbzYRRAe9JhRAK43hNjjQgXjmd8lITUnF7qtau7VwDSp7h8bmyFWK3ISRu4mEN2tts2wgCn84RiHQLT7hKIxHf3rR1NwubdmhM5+RtTphRG0j4OhFMRvBgfx8cVneQczW10HB8XZPyyBUB/oJHv2K6S9CA==|920

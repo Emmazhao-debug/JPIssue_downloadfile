@@ -1,0 +1,161 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 26
+  },
+  "Cols": {
+    "Count": 47
+  },
+  "Values": {
+    "5,12": "Mail subscription settings",
+    "8,12": "Please select the type of email notification",
+    "19,24": "Yes",
+    "19,29": "Cancel"
+  },
+  "AttachInfos": {
+    "10,15": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "NoneItemText": "<None>",
+        "Style": 1,
+        "LayoutMode": 1,
+        "Items": [
+          {
+            "Value": "0",
+            "DisplayValue": "Not notified"
+          },
+          {
+            "Value": "1",
+            "DisplayValue": "All changes are notified"
+          },
+          {
+            "Value": "2",
+            "DisplayValue": "Send notifications when other users create or modify records"
+          },
+          {
+            "Value": "3",
+            "DisplayValue": "Send notification when the record I created is modified"
+          },
+          {
+            "Value": "4",
+            "DisplayValue": "Send a notification when the record assigned to me is modified"
+          }
+        ],
+        "ForguncyAttribute": "MailSubscription_Choice"
+      }
+    },
+    "19,24": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "Yes",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
+        "ForguncyAttribute": "MailSubscription_Button"
+      }
+    },
+    "19,29": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "Cancel"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 37.333332061767578,
+        "Foreground": 0
+      },
+      {
+        "Foreground": 0
+      },
+      {
+        "FontSize": 13.333333015441895,
+        "WordWrap": true
+      },
+      {
+        "FontSize": 14.0,
+        "FontWeight": 1
+      },
+      {
+        "FontSize": 14.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 25",
+        "Bold",
+        "Accent 1 0",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "5,12": 0,
+      "8,12": 1,
+      "10,15": 2,
+      "19,24": 3,
+      "19,29": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 4,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "5,12,3,23",
+    "8,12,2,13",
+    "10,15,8,19",
+    "19,24,2,5",
+    "19,29,2,6"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Background 1 -5",
+        "Stroke": "Background 1 -25",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "ceb28d52-85eb-4188-a272-9c46f964710c.png",
+      "Location": "200,80",
+      "Size": "540,360"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "Default Master",
+    "MobilePageName": "Email Notifications (Mobile)",
+    "Title": "Mail Subscriptions",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//bsWU5l3asDYz5167VoyIfMBT5Fq4KwGBSEsyEKr7cQ3Fdc2l+jEhm5BazyeywqQt89aDIZ8zSM3vRAgEySRPXVifrFuRV/A92Q6Wm0w2cFcTdmkNua3x1k4nCw+NUdvvNzaJ2xL9LEMY0Cbgg8dQs+8pFYhctoxVPGV+NkFZAaWJcqsFfEVGcNAyqRNYKCyLp5uGMk3FKfCR8IlFgYodXCNh9vDPWwJJWfW/bLkvFmgMkSgRVrf7ZpHHq244uA63a07wo2FhPFr9DrcvzgcQMtXHCjF2VTz/iiDicdlL6sjLe19ZH5H8DMfzF0pYgi+t+RbA4aHWA9WmLUufyuPMXT7dzJEAFwKYzponMo9L7bZDszg64uG1+2rnm7j9O6ji61C86KoTry2Q29PfNpHbUnw6C0bKq+oCrDAHvcOC039Z6BopVd2v7ZdQ4Y7OEijJq1PtjOGTarnz4bg8s7VvmTBYTjRdUoE/xRb84ZtH0qXZSKyg0Zn/vLohc61hEFbAMn8XJtxE3U2+h/rx5ScoHy10fDOzCn9OGNwKiXFbIEUi93Ab5AxTFxdHdxWeIa1pJF07VCq5TAcvWyJvUMKTDCeBTxsDU/k/+H7LstsdQP6CAXOh8tAFH/uAe4NOV+1ZUP84agvRZhaXWniKv3l1TYy9Lcn0a2zkcRzlYGrHIaWWbEZYiH9uaVQkLMFTWtCPjPQHRXl/tdFFS9vnOXL5plRdSsxmjCniykMjOM4xaM//fBaB0c3ICDzKvAoAffFC+Vm8ceeSK+XhwZ5rk00EEt750Bx7D3k9SxyZadMHogxa5PN53CSr2f0szlnsEZpZwu4kasQ6uUDORjxOkGJnJlln6Tjia+BFYFE1c5LiXbqsFRmNLaEqRa4XFMvnjtqZGOTf96Xkv2z1oYdB5ghQFw==|920

@@ -1,0 +1,190 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      }
+    },
+    "Count": 35
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "36": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 58
+  },
+  "Values": {
+    "12,22": "Verify Code",
+    "14,21": "Get the 6-digit code from authentication app.",
+    "17,21": "Authentication Code:",
+    "23,21": "Verify"
+  },
+  "AttachInfos": {
+    "5,21": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_light.png"
+      }
+    },
+    "18,21": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LargeRoundCorner_LightTheme_Normal3",
+        "WaterMark": "",
+        "ForguncyAttribute": "MFA_VerifyCode_Inputbox"
+      },
+      "DataValidationInfo": {
+        "NumberType": 6,
+        "CompareParamType": 2,
+        "IgnoreBlank": false,
+        "FirstParamValue": "6",
+        "ErrorMessage": "Please enter 6-digit code."
+      }
+    },
+    "21,21": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "Don't ask again on this computer.",
+        "Style": 1,
+        "ForguncyAttribute": "MFA_VerifyCode_TrustDevice"
+      }
+    },
+    "23,21": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "Verify",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_RoundCorner_Style2",
+        "ForguncyAttribute": "MFA_VerifyCode_SubmitButton"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 6,
+        "WordWrap": true
+      },
+      {
+        "Foreground": 4
+      },
+      {
+        "Formatter": 7,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 15",
+        "Center",
+        "Text 1 35",
+        "Left",
+        "Top",
+        "@"
+      ]
+    },
+    "CellStyles": {
+      "12,22": 0,
+      "14,21": 1,
+      "17,21": 2,
+      "18,21": 3,
+      "21,21": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "5,21,4,16",
+    "23,21,2,16",
+    "12,22,2,14",
+    "18,21,2,16",
+    "14,21,2,16",
+    "21,21,1,16"
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "ForguncyPictureName": "PCLoginBackground",
+      "Stretch": 3,
+      "ForguncyPictureSourceType": 2,
+      "Name": "BackgroundPicture0",
+      "Size": "1120,605"
+    },
+    {
+      "StyleInfo": {
+        "CornerRadius": 8.4375,
+        "Fill": "#FFFFFFFF"
+      },
+      "IsAutomaticFill": false,
+      "Name": "BackgroundPicture1",
+      "Location": "380,220",
+      "Size": "360,305"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "Verify MFA Code (Mobile)",
+    "Title": "Verify Code",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//pSID4f9SAtLDrJoXI7twbhBxUFlEVGitB1gW0tKUVfANd4aVJz8jxDgLr+mbnK+W6qYf8sq82KOphE8qblC6WZ6M2iWB4qHZ2xlqaLG0kQoz07Cm9imZH3d2NAmN5JlclNMFctY+KI8eL4PJC8BmVM182QLYFv/IGVVvfqP52pC+BldfGoNKYHA7gpvdP3BLuI+e7tY67ROaEPEIuLO2LOCRNXC6NmfdAfJrVA/OUHn6gh94ySZi7eZYSuhvfqsmGgkUN2Vorp2aZj2AmnkFcko4w8QFCa9ijTOSlPwG8euDYJcvPgeh9JvaOPWn2kjltrRID6ZcM3pELCZBzMSBAm4F6hum8rX7IH2kKYhxvUdIF/fymAryeMID5BRGsRgb2kb/2Xee7XYMbWkUmev5TcpVXLdUIKrjz6E2pQjf1R4ThzFil2lWmq7/qaVPc0+GtF25eW2f1oKvWDzWAIerI1nfz0x5LA5Lv8CwqjpQnmhFnTMJKwaxoHTYIktviDxrZjV/ZSbIWOt+lpHa1ZBYzmGywpwFdpq1mkl71Jixhezct7Yrt6Q327t0QVKkcIxGLHSX0j0Q+nIeCvPfu+qYuq2NhqOd+BdqZ3/WkqIUyMtJiZf694+GC5Mzkpliu0DRVHliaqGutjq34MKqbHc675wC52qrn+M2BxBpcvaHj8nurqyhj7sSpT2iu73jKp4RBnaJb0lPXdvyqSY28E2WGlnTY/UxFPkbQxQbWVeav76ldihMleVIvhFGhXKWmNlcDugSGLmvVlmiut30naTLBe/FFKPo35txGGQqEkYZC7nREdtPGEsmMpBL2Zbg/IJ/zTvVY29hdovKEYR0k0ecbkdypw+te2AL9t4TcH3JKPUJ985kzJuwO0rD6vYFta1zjFo9au1KGYCXJY2Nj70xFg==|920

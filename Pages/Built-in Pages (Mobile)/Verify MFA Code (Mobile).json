@@ -1,0 +1,160 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 29
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "0,0": "  ",
+    "7,3": "Verify Code",
+    "9,3": "Get the 6-digit code from authentication app.",
+    "12,3": "Authentication Code:",
+    "20,3": "Verify"
+  },
+  "AttachInfos": {
+    "3,4": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_light.png"
+      }
+    },
+    "13,3": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_Normal_DarkTheme_Normal2",
+        "WaterMark": "",
+        "ForguncyAttribute": "MFA_VerifyCode_Inputbox"
+      },
+      "DataValidationInfo": {
+        "NumberType": 6,
+        "CompareParamType": 2,
+        "IgnoreBlank": false,
+        "FirstParamValue": "6",
+        "ErrorMessage": "Please enter 6-digit code."
+      }
+    },
+    "16,3": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "Don't ask again on this computer.",
+        "Style": 1,
+        "ForguncyAttribute": "MFA_VerifyCode_TrustDevice"
+      }
+    },
+    "20,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "Verify",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Outline_RoundCorner_Style2",
+        "ForguncyAttribute": "MFA_VerifyCode_SubmitButton"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 2,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Foreground": 4,
+        "Formatter": 5
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 6
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Formatter": 5
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Background 1 0",
+        "Center",
+        "#FFFFFFFF",
+        "[AUTO]General",
+        "@"
+      ]
+    },
+    "CellStyles": {
+      "7,3": 0,
+      "9,3": 1,
+      "12,3": 2,
+      "13,3": 3,
+      "16,3": 1,
+      "20,3": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "3,4,3,10",
+    "20,3,2,12",
+    "13,3,2,12",
+    "16,3,2,13",
+    "7,3,2,12",
+    "9,3,2,12"
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "ForguncyPictureName": "MobileLoginBackground",
+      "Stretch": 3,
+      "ForguncyPictureSourceType": 2,
+      "Name": "BackgroundPicture0",
+      "Size": "360,540"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "Verify Code",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//BCpQtIQg0xgJDBUXrQYEDBPZJKg7BKSiHdPOhMNczsResG2F0GfeSIBjnyM9OUDEFIPhriZLwExy/YI/wg60R52wP5hH8IN68qfoxU0EgTW3CyEJ6hd0LhqkIXUwJyIlW8mBD5TIooj/olW4U3afxT1AT1VhqwbWIoykpOtf6/WCF2jIVbBcrXaKN9iWy7a7InA+QQ1sjcuzmrmzlshwr+C8/ZDr+R4p6mWAOvT09UXkLt4msXLSZKl8jGRjk9E6hBQxniOvXpV7QCEpnCEaHjJVmrj73v3kkmSKNcK1wg06+f9H1i1UPMByiYU23bggU37zOagBBWIAlKcqegn4hmDHm716wXAfPDezE1of2kK4dsPNEmE6ZmeCsd4FXNB2uCmfkyScCPuVCJRG23DkDXJG9+yGgtCzmM5RwfSvKHmxF1aCHsAEt9PCi1yKCkZzQ+lX3H/NxEKCRRoR3/f4BjkBB+Crn6MCtJ3WVrNxLVEp4UCCWsGTEvMfrz0UgHZ9zCFZl03WWrKvwCgI3MM8W9z/uAU/+WPTl+//nfWraVKUzoeQXP59LgNkPhkJsA6w7loGhwo2l9nK+fWJqltfOj+JRAn6ayZTAu2rkxCnDWaW7Ym0ODidZ2S2lp51dLRjfMjQM3BIHjmNuw3TQMioVkuLqARjPCmJk5+za3pqMHUg73e32dTBAcMAwEw/sanfD5XL1xyQKslvC/Vq301rJgOW+iK4hh6LCbXYZqFoyGdTajMPPtYA6n3dAUZ+vLDFOtUx2BjTMYw/UM2GbqUIoGvOTzuzoYZmfxa8g8uoq/2x9+IDLN53fcohijYsfcIgt0PVZCXIQfpkAAXcLArtiFpMGXIHeNQ25eQksPqUbtMaTMnrU7A0KQwnJNn+b4grY0AtcaTF8PtCIj5G5dpn+w==|920
