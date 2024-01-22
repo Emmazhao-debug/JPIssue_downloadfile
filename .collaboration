@@ -97,18 +97,7 @@
   },
   {
     "ModuleName": "PCPage/Page1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "Emma.zhao@developertools.com"
-    },
-    "LockDateTime": "2024-01-22T18:04:17.0268898+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Page1.json",
-      "UserTemplateFile\\ScreenCapture_2024-01-18 17.19.463918b14589f04b8ba509f528bc28f254.wmv",
-      "UserTemplateFile\\DataTypeOfView_issue018102f6f93ed344199d1ae4336a848350.mp4"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "MasterPCPage/Default Master",
